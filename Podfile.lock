@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.8.1)
+  - EasyTipView (2.1.0)
+  - Kingfisher (7.11.0)
+  - lottie-ios (4.3.4)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - EasyTipView
+  - Kingfisher
+  - lottie-ios
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - EasyTipView
+    - Kingfisher
+    - lottie-ios
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  EasyTipView: a92b6edc377b81c5ac18e9fd35d5ee78e9409488
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  lottie-ios: 3d98679b41fa6fd6aff2352b3953dbd3df8a397e
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: ebad5d2caade4a0c1f18fb587ff4c3befc15be00
+
+COCOAPODS: 1.12.1
