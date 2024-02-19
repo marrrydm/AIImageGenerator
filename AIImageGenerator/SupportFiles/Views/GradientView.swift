@@ -18,9 +18,6 @@ class GradientView: UIView {
         view.startPoint = CGPoint(x: 0.0, y: 0.0)
         view.endPoint = CGPoint(x: 0.0, y: 1.0)
         view.locations = [0.0, 0.2]
-        view.shadowOpacity = 1
-        view.shadowRadius = 11
-        view.shadowOffset = CGSize(width: 0, height: 3)
         layer.insertSublayer(view, at: 0)
         return view
     }()

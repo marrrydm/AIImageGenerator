@@ -13,7 +13,7 @@ import UIKit
 
 class GenerateController: UIViewController {
     // MARK: - Properties
-    private var viewModel: ImageGeneratorViewModel
+    private var viewModel: GeneratorViewModel
 
     // MARK: - UI Components
     private lazy var collectionView: UICollectionView = {
@@ -116,7 +116,7 @@ class GenerateController: UIViewController {
     }
 
     // MARK: - Initializers
-    init(viewModel: ImageGeneratorViewModel) {
+    init(viewModel: GeneratorViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

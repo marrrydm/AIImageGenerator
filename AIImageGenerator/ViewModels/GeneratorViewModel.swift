@@ -1,5 +1,5 @@
 //
-//  ImageGeneratorViewModel.swift
+//  GeneratorViewModel.swift
 //  AIImageGenerator
 //
 //  Created by Мария Ганеева on 17.02.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ImageGeneratorViewModel {
+class GeneratorViewModel {
     private let apiManager: StablediffusionAPIManager
 
     init(apiKey: String) {

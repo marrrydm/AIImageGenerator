@@ -9,7 +9,7 @@ import UIKit
 
 class Builder {
     static func build() -> UIViewController {
-        let generateViewModel = ImageGeneratorViewModel(apiKey: Constants.API_KEY)
+        let generateViewModel = GeneratorViewModel(apiKey: Constants.API_KEY)
         let controller = GenerateController(viewModel: generateViewModel)
         return controller
     }

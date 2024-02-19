@@ -22,7 +22,7 @@
 		F84E7C9D2B82082B0068DDB2 /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F84E7C9C2B82082B0068DDB2 /* Skia.ttf */; };
 		F8A7691D2B7F902B00AD89E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A7691C2B7F902B00AD89E8 /* Constants.swift */; };
 		F8A7691F2B7F908800AD89E8 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A7691E2B7F908800AD89E8 /* APIError.swift */; };
-		F8A769242B81433900AD89E8 /* ImageGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A769232B81433900AD89E8 /* ImageGeneratorViewModel.swift */; };
+		F8A769242B81433900AD89E8 /* GeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A769232B81433900AD89E8 /* GeneratorViewModel.swift */; };
 		F8DC3A1E2B82356300843151 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC3A1D2B82356300843151 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		F84E7C9C2B82082B0068DDB2 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
 		F8A7691C2B7F902B00AD89E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F8A7691E2B7F908800AD89E8 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		F8A769232B81433900AD89E8 /* ImageGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGeneratorViewModel.swift; sourceTree = "<group>"; };
+		F8A769232B81433900AD89E8 /* GeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewModel.swift; sourceTree = "<group>"; };
 		F8DC3A1D2B82356300843151 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,7 +180,7 @@
 		F8A769222B81433000AD89E8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F8A769232B81433900AD89E8 /* ImageGeneratorViewModel.swift */,
+				F8A769232B81433900AD89E8 /* GeneratorViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 				F820E5052B7E0B5300021444 /* StablediffusionAPIManager.swift in Sources */,
 				F8DC3A1E2B82356300843151 /* UIView.swift in Sources */,
 				F8A7691D2B7F902B00AD89E8 /* Constants.swift in Sources */,
-				F8A769242B81433900AD89E8 /* ImageGeneratorViewModel.swift in Sources */,
+				F8A769242B81433900AD89E8 /* GeneratorViewModel.swift in Sources */,
 				F820E5122B7E3F8700021444 /* GradientView.swift in Sources */,
 				F820E5082B7E144500021444 /* ResponseModel.swift in Sources */,
 				F820E4FF2B7E09C600021444 /* GenerateCell.swift in Sources */,
